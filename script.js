@@ -1,6 +1,6 @@
-let taskInput = document.getElementById("taskInput");
-let addTask = document.getElementById("addTask");
-let taskList = document.getElementById("taskList");
+let taskInput = document.querySelector("#taskInput");
+let addTask = document.querySelector("#addTask");
+let taskList = document.querySelector("#taskList");
 
 addTask.addEventListener("click", function () {
 
